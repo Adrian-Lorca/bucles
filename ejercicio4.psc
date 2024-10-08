@@ -1,9 +1,6 @@
 Algoritmo ejercicio4
 	//Algoritmo que pida caracteres e imprima 'VOCAL' si son vocales y 'NO VOCAL' en caso contrario, el
 	//programa termina cuando se introduce un espacio.
-	
-	vocal = 0
-	no_vocal = 0
 
         Escribir "Ingrese un carácter:"
         Leer carac
