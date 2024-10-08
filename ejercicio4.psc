@@ -4,17 +4,17 @@ Algoritmo ejercicio4
 	
 	vocal = 0
 	no_vocal = 0
-	Repetir
-        Escribir "Ingrese un car·cter:"
-        Leer char
-        char = Minusculas(char)
+
+        Escribir "Ingrese un car√°cter:"
+        Leer carac
+        carac = Minusculas(carac)
         
-        Si char = "a" O char = "e" O char = "i" O char = "o" O char = "u" Entonces
+        Si carac = "a" O carac = "e" O carac = "i" O carac = "o" O carac = "u" Entonces
             Escribir "VOCAL"
         Sino
-            Si char <> " " Entonces
+            Si carac <> " " Entonces
                 Escribir "NO VOCAL"
             FinSi
         FinSi
-    Hasta Que char = " "
+    Hasta Que carac = " "
 FinAlgoritmo
